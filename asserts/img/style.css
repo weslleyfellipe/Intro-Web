@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura dos elementos */
+}
+
+/* Estilo para o menu de navegação */
+nav {
+    background-color: #686868; /* Cor de fundo do menu */
+    padding: 10px 0; /* Padding na parte superior e inferior */
+    text-align: center; /* Centraliza o conteúdo do menu */
+}
+
+/* Remove marcadores da lista do menu de navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+}
+
+/* Estilo para itens de lista do menu de navegação */
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 10px; /* Margem entre os itens da lista */
+}
+
+/* Estilo para links do menu de navegação */
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #020202; /* Cor do texto dos links */
+    padding: 5px 10px; /* Padding dentro dos links */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para o hover dos links do menu de navegação */
+nav ul li a:hover {
+    background-color: #7c7b7b; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para títulos h1 e h2 */
+h1 {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+/* Estilo para o container que envolve a imagem e o texto */
+.container {
+    display: flex; /* Define o layout flexível */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    margin: 40px 0; /* Margem superior e inferior */
+}
+
+/* Estilo para a imagem dentro do container */
+.container img {
+    width: 150px; /* Largura da imagem */
+    height: 150px; /* Altura da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    margin-right: 20px; /* Margem à direita da imagem */
+}
+
+/* Estilo para o contêiner de texto */
+.text-container {
+    max-width: 800px; /* Largura máxima do texto */
+}
+
+/* Estilo para parágrafos centralizados */
+p.center {
+    text-align: justify; /* Justifica o texto */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+/* Estilo para o iframe (vídeo do YouTube) */
+iframe {
+    display: block; /* Exibe o iframe como um bloco */
+    margin: 20px auto; /* Centraliza horizontalmente e adiciona margens */
+}
+
+
+
+
+
+
+/*
+/*
+/* Estilização contato.html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura dos elementos */
+}
+
+/* Estilo para itens de lista do menu de navegação */
+ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 10px; /* Margem entre os itens da lista */
+}
+
+/* Estilo para links do menu de navegação */
+ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #070707; /* Cor do texto dos links */
+    padding: 5px 10px; /* Padding dentro dos links */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para o hover dos links do menu de navegação */
+ul li a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 0 auto 20px auto; /* Centraliza o formulário e adiciona margem inferior */
+    padding: 20px; /* Padding interno */
+    background-color: #fff; /* Cor de fundo do formulário */
+    border: 1px solid #fff; /* Borda do formulário */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para labels e inputs do formulário */
+label, input, textarea {
+    display: block; /* Exibe os elementos como blocos */
+    width: 100%; /* Largura total */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+/* Estilo para o botão */
+button {
+    display: block; /* Exibe o botão como um bloco */
+    width: 100%; /* Largura total */
+    padding: 10px; /* Padding interno */
+    background-color: #da0606; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+/* Estilo para o hover do botão */
+button:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para os títulos */
+h1, h2 {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+/* Estilo para o parágrafo de endereço */
+p {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+/* Estilo para o iframe (Google Maps) */
+iframe {
+    display: block; /* Exibe o iframe como um bloco */
+    margin: 20px auto; /* Centraliza o iframe e adiciona margens */
+}

@@ -5,34 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
-</head>
-<ul>
-    <li>
-        <a href="index.html">Home</a>
+    <link rel="stylesheet" href="asserts/img/style.css">
 
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
-    
-</ul>
+    <style>
+       
+        
+
+        body {
+            background-image: url("asserts/img/arvore3.jpg");
+            background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+            background-position: center center; /* Centraliza a imagem no fundo */
+            color: #f5f2f2; /* Cor do texto */
+            font-family: Arial, sans-serif; /* Tipo de fonte */
+            height: 100vh; /* Altura igual à altura da viewport */
+        }
+
+        /* Estilos adicionais para o conteúdo da página */
+        .container {
+            padding: 70px;
+            text-align: center;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        /* Estilos para o rodapé */
+        footer {
+            background-color: #000000; /* Cor de fundo do rodapé */
+            color: #fff; /* Cor do texto do rodapé */
+            text-align: center; /* Centraliza o texto no rodapé */
+            padding: 10px; /* Espaçamento interno do rodapé */
+            position: fixed; /* Fixa o rodapé no final da página */
+            bottom: 0; /* Coloca o rodapé na parte inferior da janela */
+            width: 100%; /* Largura total do rodapé */
+        }
+
+        footer a {
+           
+            color: #fff; /* Cor dos links no rodapé */
+            text-decoration: none; /* Remove o sublinhado dos links */
+            margin: 0 10px; /* Espaçamento entre os links */
+        }
+    </style>
+</head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    
     <h1>Sobre o Weslley</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error quae cumque similique exercitationem. 
-        At consequuntur quae quos quaerat reiciendis dolore voluptate, dolores magnam exercitationem, aperiam necessitatibus mollitia nihil. Eos.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus vero quos quidem. Voluptas harum impedit et dolore, dolorem enim ex vero, distinctio non dolores aspernatur. Ex, ipsum maiores! Accusamus, cumque.
+
+    <div class="container">
+        <img src="asserts/img/macaquinho.avif" alt="Foto Aleatoria">
+        <div class="text-container">
+            <p class="center"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error quae cumque similique exercitationem. 
+                At consequuntur quae quos quaerat reiciendis dolore voluptate, dolores magnam exercitationem, aperiam necessitatibus mollitia nihil. Eos.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus vero quos quidem. Voluptas harum impedit et dolore, dolorem enim ex vero, distinctio non dolores aspernatur. Ex, ipsum maiores! Accusamus, cumque.
             </p>
+                
+            <p class="center"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error quae cumque similique exercitationem. 
+                At consequuntur quae quos quaerat reiciendis dolore voluptate, dolores magnam exercitationem, aperiam necessitatibus mollitia nihil. Eos.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus vero quos quidem. Voluptas harum impedit et dolore, dolorem enim ex vero, distinctio non dolores aspernatur. Ex, ipsum maiores! Accusamus, cumque.
+            </p>
+        </div>
+    </div>
 
-            <img src="asserts/img/macaquinho.webp" alt="Foto Aleatoria ">
+    <h2>Vídeo de memes Aleatório:</h2>
+    <iframe width="500" height="265" src="https://www.youtube.com/embed/vigbISmD_nI?si=AjfB1wK2xZqTPXOb" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-            <h2>Video de meme Aleatoria : </h2>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vigbISmD_nI?si=AjfB1wK2xZqTPXOb" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+   
 </body>
 
 </html>
