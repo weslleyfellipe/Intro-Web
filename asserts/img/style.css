@@ -33,7 +33,7 @@ nav ul li a {
 
 /* Estilo para o hover dos links do menu de navegação */
 nav ul li a:hover {
-    background-color: #7c7b7b; /* Cor de fundo ao passar o mouse */
+    background-color: #999696; /* Cor de fundo ao passar o mouse */
 }
 
 /* Estilo para títulos h1 e h2 */
@@ -73,9 +73,47 @@ p.center {
 iframe {
     display: block; /* Exibe o iframe como um bloco */
     margin: 20px auto; /* Centraliza horizontalmente e adiciona margens */
+
 }
 
 
+
+.footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+        .footer .social-icons {
+            margin: 5px 0;
+        }
+        .footer .social-icons a {
+            margin: 0 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .footer .social-icons a:hover {
+            color: #ddd;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .footer .footer-links {
+            margin: 5px 0;
+        }
+        .footer .footer-links a {
+            margin: 0 5px;
+            color: white;
+            text-decoration: none;
+        }
+        .footer .footer-links a:hover {
+            text-decoration: underline;
+        }
 
 
 
@@ -87,12 +125,13 @@ iframe {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura dos elementos */
+    
 }
 
 /* Estilo para itens de lista do menu de navegação */
 ul li {
     display: inline; /* Exibe os itens da lista em linha */
-    margin: 0 10px; /* Margem entre os itens da lista */
+    margin: 0 px; /* Margem entre os itens da lista */
 }
 
 /* Estilo para links do menu de navegação */
@@ -105,16 +144,16 @@ ul li a {
 
 /* Estilo para o hover dos links do menu de navegação */
 ul li a:hover {
-    background-color: #555; /* Cor de fundo ao passar o mouse */
-}
+    background-color: #a7a7a7; /* Cor de fundo ao passar o mouse */
+}   
 
 /* Estilo para o formulário */
 form {
     max-width: 600px; /* Largura máxima do formulário */
     margin: 0 auto 20px auto; /* Centraliza o formulário e adiciona margem inferior */
     padding: 20px; /* Padding interno */
-    background-color: #fff; /* Cor de fundo do formulário */
-    border: 1px solid #fff; /* Borda do formulário */
+    background-color: #ffffff; /* Cor de fundo do formulário */
+    border: 1px solid #080808; /* Borda do formulário */
     border-radius: 5px; /* Bordas arredondadas */
 }
 
@@ -157,5 +196,5 @@ p {
 /* Estilo para o iframe (Google Maps) */
 iframe {
     display: block; /* Exibe o iframe como um bloco */
-    margin: 20px auto; /* Centraliza o iframe e adiciona margens */
+    margin: 10px auto; /* Centraliza o iframe e adiciona margens */
 }
